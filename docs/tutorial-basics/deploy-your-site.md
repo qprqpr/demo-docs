@@ -16,6 +16,8 @@ Build your site **for production**:
 npm run build
 ```
 
+---
+
 The static files are generated in the `build` folder.
 
 ## Deploy your site
