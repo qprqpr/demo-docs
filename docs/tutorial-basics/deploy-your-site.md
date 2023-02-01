@@ -11,7 +11,7 @@ Docusaurus is a static-site-generator (also called [Jamstack](https://jamstack.o
 Build your site **for production**:
 
 ```bash
-npm run build <%PROJECT%>
+npm run build <PROJECT>
 ```
 
 The static files are generated in the `build` folder.
