@@ -8,7 +8,7 @@ const projectName = "demo-docs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Gaijin Central Docs',
+  title: 'Gaijin Central Documentation',
   favicon: 'img/favicon.ico',
 
   url: `https://${organizationName}.github.io`,
@@ -48,9 +48,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Gaijin Central Docs',
+        title: 'Gaijin Central Documentation',
         logo: {
-          alt: 'Gaijin Central Docs',
+          alt: 'Gaijin Central Documentation',
           src: 'img/logo.svg',
         },
         items: [
