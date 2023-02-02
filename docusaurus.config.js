@@ -8,7 +8,7 @@ const projectName = "demo-docs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Demo docs',
+  title: 'Gaijin Central Docs',
   favicon: 'img/favicon.ico',
 
   url: `https://${organizationName}.github.io`,
@@ -22,7 +22,8 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ru'],
+    path: 'i18n',
   },
 
   presets: [
@@ -30,12 +31,15 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        blog: false,
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
-        blog: false,
+        theme: {
+          customCss: [require.resolve('./src/styles/custom.css')],
+        },
       }),
     ],
   ],
@@ -44,15 +48,24 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Demo docs',
+        title: 'Gaijin Central Docs',
         logo: {
-          alt: 'Demo docs',
+          alt: 'Gaijin Central Docs',
           src: 'img/logo.svg',
         },
         items: [
           {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/qprqpr/demo-docs',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://central-admin.gaijin.net',
+            label: 'Gaijin Central',
             position: 'right',
           },
         ],

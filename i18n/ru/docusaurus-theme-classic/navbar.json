@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Gaijin Central Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Gaijin Central": {
+    "message": "Gaijin Central",
+    "description": "Navbar item with label Gaijin Central"
+  }
+}

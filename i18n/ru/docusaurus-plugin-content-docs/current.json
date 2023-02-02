@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Начало работы",
+    "description": "..."
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "...",
+    "description": "..."
+  },
+  "sidebar.tutorialSidebar.category.Project": {
+    "message": "Проект",
+    "description": "..."
+  },
+  "sidebar.tutorialSidebar.category.Project.link.generated-index.description": {
+    "message": "...",
+    "description": "..."
+  },
+  "sidebar.tutorialSidebar.category.Application": {
+    "message": "Приложение",
+    "description": "..."
+  },
+  "sidebar.tutorialSidebar.category.Application.link.generated-index.description": {
+    "message": "...",
+    "description": "..."
+  }
+}
