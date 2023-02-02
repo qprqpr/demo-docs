@@ -11,7 +11,7 @@ Invoke the following command:
 yupgen.exe -path .\builds\release -proj <PROJECT> -ver <VERSION>
 ```
 
-As a result, in the current catalog, there should appear a file of the form a2e61e8a631c353b59091a6b17ef64f7f358b70d.yup
+As a result, in the current catalog, there should appear a file of the form `a2e61e8a631c353b59091a6b17ef64f7f358b70d.yup`
 
 That file contains the description of your build together with the project name, version, a list of all files, and a hash of their content. Being that YUP contains hashes of all the files from the .\builds\release catalog, you must not change the content of that catalog after the build.
 
